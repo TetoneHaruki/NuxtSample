@@ -5,7 +5,7 @@ exports[`Parent > mount 1`] = `
   <h1
     class="parent"
   >
-    Parent 
+    Parent
   </h1>
   <div>
     <h1>
@@ -20,8 +20,8 @@ exports[`Parent > shallowMount 1`] = `
   <h1
     class="parent"
   >
-    Parent 
+    Parent
   </h1>
-  <anonymous-stub />
+  <child-stub />
 </div>
 `;
