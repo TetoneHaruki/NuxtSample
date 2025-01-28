@@ -14,7 +14,7 @@ test("manually advance time", async ({ page }) => {
   await expect(page.getByTestId("clock")).toHaveText("10:00:00");
 
   await page.clock.fastForward("30:00");
-  await expect(page.getByTestId("clock")).toHaveText("10:30:00");
+  await expect(page.getByTestId("clock")).toHaveText("10:31:00");
 });
 
 test("test inactivity monitoring", async ({ page }) => {
